@@ -1,5 +1,5 @@
 # getting base python image
-FROM  python:3.7.9-slim-buster
+FROM  python:3.8
 
 # installing packages
 RUN apt-get update && apt-get install -y \
